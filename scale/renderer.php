@@ -166,6 +166,9 @@ class qtype_musictheory_scale_identify_renderer extends qtype_musictheory_render
             case 'melodic':
                 $scale = new MelodicMinorScale($tonic);
                 break;
+            case 'dorian':
+                $scale = new DorianScale($tonic);
+                break;
             default:
                 $scale = new MajorScale($tonic);
         }

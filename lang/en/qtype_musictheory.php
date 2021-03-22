@@ -265,6 +265,7 @@ $string['scaletype_major'] = 'Major';
 $string['scaletype_natural'] = 'Natural minor';
 $string['scaletype_harmonic'] = 'Harmonic minor';
 $string['scaletype_melodic'] = 'Melodic minor';
+$string['scaletype_dorian'] = 'Dorian';
 
 // Harmonic function types.
 $string['hftype_diatonictriad'] = 'Diatonic triad';

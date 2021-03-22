@@ -1127,7 +1127,7 @@ NS.XMLConverter.prototype.getScaleWriteXML = function(input) {
       resp,
       scaleLength;
 
-  if (this.options.scaleType === 'major') {
+  if (this.options.scaleType === 'major' || this.options.scaleType === 'dorian') {
     key += 'M';
   }
   else {
@@ -1244,7 +1244,7 @@ NS.XMLConverter.prototype.getScaleIdentifyXML = function(input) {
       resp,
       scaleLength;
 
-  if (this.options.scaleType === 'major') {
+  if (this.options.scaleType === 'major' || this.options.scaleType === 'dorian') {
     key += 'M';
   }
   else {

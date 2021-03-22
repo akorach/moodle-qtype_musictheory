@@ -16,6 +16,7 @@
       <possiblescaletype>natural</possiblescaletype>
       <possiblescaletype>harmonic</possiblescaletype>
       <possiblescaletype>melodic</possiblescaletype>
+      <possiblescaletype>dorian</possiblescaletype>
     </possiblescalesinresponse>
   </scale-identify-random>
 </options>

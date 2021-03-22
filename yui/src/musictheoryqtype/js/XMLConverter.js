@@ -656,11 +656,12 @@ NS.XMLConverter.prototype.getScaleWriteXML = function (input) {
             resp,
             scaleLength;
 
-    if (this.options.scaleType === 'major') {
+    if (this.options.scaleType === 'major' || this.options.scaleType === 'dorian') {
         key += 'M';
     } else {
         key += 'm';
     }
+    console.log(this.options.scaleType);
     if (this.options.includeKS) {
         keySign = new NS.getKeySign(key, this.options.clef);
     } else {
@@ -765,7 +766,7 @@ NS.XMLConverter.prototype.getScaleIdentifyXML = function (input) {
             resp,
             scaleLength;
 
-    if (this.options.scaleType === 'major') {
+    if (this.options.scaleType === 'major' || this.options.scaleType === 'dorian') {
         key += 'M';
     } else {
         key += 'm';

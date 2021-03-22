@@ -16,6 +16,7 @@
       <possiblescaletype>major</possiblescaletype>
       <possiblescaletype>natural</possiblescaletype>
       <possiblescaletype>melodic</possiblescaletype>
+      <possiblescaletype>dorian</possiblescaletype>
     </possiblescalesinresponse>
   </scale-identify>
 </options>
